@@ -6,7 +6,7 @@ Curso em .NET realizado pela DIO (www.dio.me)
 Construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
 
 ## Descrição 
-Você precisará construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
+Para representar o sistema de estacionamento e permitir as operações de adicionar, remover e listar os veículos, o objeto foi representado através da Classe Estacionamento:
 ![Diagrama de classe estacionamento](diagrama_classe_estacionamento.png)
 
 A classe contém três variáveis, sendo:
@@ -25,12 +25,14 @@ A classe contém três métodos, sendo:
 
 **ListarVeiculos**: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
 
-Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
+Para acesso aos métodos, foi desenvolvido um menu interativo (switch case) com as seguintes ações:
 1. Cadastrar veículo
 2. Remover veículo
 3. Listar veículos
 4. Encerrar
 
+## IDE
+Visual Studio Code - Version 1.87.2
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+Desenvolvedora: Avany Souza
+
